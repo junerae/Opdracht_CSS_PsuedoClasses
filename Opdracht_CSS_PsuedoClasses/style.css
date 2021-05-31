@@ -1,0 +1,77 @@
+
+
+.opdracht {
+    text-align: center;
+}
+
+.opdracht a {
+    text-decoration: none;
+    color: black;
+    font-size: 50px;
+}
+
+.link1 a:hover {
+    color: lightblue;
+    font-weight: bold;
+}
+
+.link2 a:active {
+    color: red;
+    font-style: italic;
+}
+
+.link3 a:visited {
+    color: yellow;
+}
+
+#fname:focus {
+    font-size: 20px;
+    color: green;
+}
+
+header {
+    display: flex;
+    justify-content:space-around;
+    flex-flow: row wrap;
+    box-sizing: border-box;
+    text-align: center;
+    align-items: center;  
+}
+
+
+nav {
+    display: inline;
+    color:white;
+    background-color: darkblue;
+    width: 100%;
+}
+
+
+.menu li {
+    display: inline;
+    padding-right: 20px;
+}
+
+.menu a {
+    text-decoration: none;
+    color: white;
+}
+
+.currentPage {
+    background-color: grey;
+}
+
+
+.menu a:hover {
+    background-color: lightskyblue;
+}
+
+
+.search-container #fsearch {
+    border: 1px solid black;
+}
+
+#fsearch:focus {
+    border: 5px solid aquamarine;
+}
+
